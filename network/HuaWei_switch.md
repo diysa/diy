@@ -10,5 +10,12 @@
 [Quidway-aaa]local--user wds level 15 #
 [Quidway-aaa]local--user wds service type telnet terminal ssh#
 [Quidway-aaa]quit
+[Quidway]user-interface vty 0 4
+[Quidway-ui-vty0-4]authentication-mode aaa
+[Quidway-ui-vty0-4]quit
 
+```
+##### 配置VLAN
+```
+[]
 ```
