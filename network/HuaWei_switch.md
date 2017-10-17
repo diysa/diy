@@ -1,1 +1,4 @@
-this is switch
+华为交换机的配置
+==========
+>>system-view #进入配置视图
+>>
