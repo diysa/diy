@@ -2,8 +2,12 @@ markdown 语法：
     http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14
 1、代码高亮 
     ```   ```包括起来
+
 2、制作待办事项 To-do list
     - [ ] or - [x]
+    - [ ]
+        - [ ]
+
 3、流程图
     ```
     graph TD
@@ -13,3 +17,61 @@ markdown 语法：
         C -->|Two| D[iphone]
         C -->|Three| D[car]
     ```
+
+4、序列图
+    ```
+    sequenceDiagram
+        loop every day
+            Alice->>John:Hello John,how are you？
+            John-->>Alice:Great!
+        end
+    ```
+
+5、甘特图
+    ```
+    gantt
+    dateFormat YYYY-MM-DD
+    title 产品计划表
+    section 初期阶段
+    明确需求:2016-03-01,10d
+    section 中期阶段
+    明确需求:2016-03-11,15d
+    ```
+
+6、表格
+    | Item     |   value|    Qty|
+    |:---------|-------:|:-----:|
+    |computer  | 1600USD|   5   |
+
+7、数学公式
+
+8、标题（共六级）
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+9、列表
+    无序列表
+    - 列表1
+        - 列表1.1
+        - 列表1.2
+    - 列表2
+
+10、引用
+>
+
+11、粗体和斜体
+*这是斜体*
+**这是粗体**
+
+12、链接与图片
+链接：插入链接只需要[显示文本](链接地址)
+图片：插入图片只需要![显示文本](图片链接地址)
+
+13、分割线
+另起一行，连续输入三个星号***即可
+
+
