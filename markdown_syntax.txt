@@ -1,2 +1,15 @@
 markdown 语法：
     http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14
+1、代码高亮 
+    ```   ```包括起来
+2、制作待办事项 To-do list
+    - [ ] or - [x]
+3、流程图
+    ```
+    graph TD
+        A[(Christmas)] --> B(Go shopping)
+        B -->C{le me think}
+        C -->|One| D[laptop]
+        C -->|Two| D[iphone]
+        C -->|Three| D[car]
+    ```
