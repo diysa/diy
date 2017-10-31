@@ -1,4 +1,4 @@
-=== ubuntu下安装MegaCli查看磁盘的状态
+= ubuntu下安装MegaCli查看磁盘的状态
 ###  下载地址
 https://www.broadcom.com/site-search?q=megacli
 
