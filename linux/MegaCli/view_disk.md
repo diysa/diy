@@ -1,13 +1,13 @@
 -- ubuntu下安装MegaCli查看磁盘的状态
+###  下载地址
+https://www.broadcom.com/site-search?q=megacli
 
-[*] https://www.broadcom.com/site-search?q=megacli
+### 依赖
 预先安装需要的其他包：
-
- 
-
-1
+```
 apt-get -y install  rpm2cpio libsysfs2 libsysfs-dev unzip
-         安装完成后执行如下命令：
+```
+ 安装完成后执行如下命令：
 
  
 
