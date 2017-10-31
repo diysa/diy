@@ -2,7 +2,7 @@
 ###  下载地址
 https://www.broadcom.com/site-search?q=megacli
 
-### 依赖
+###### 依赖
 预先安装需要的其他包：
 ```
 apt-get -y install  rpm2cpio libsysfs2 libsysfs-dev unzip
@@ -12,6 +12,7 @@ apt-get -y install  rpm2cpio libsysfs2 libsysfs-dev unzip
 cd /lib/x86_64-linux-gnu/
 ln -s libsysfs.so.2.0.1 libsysfs.so.2.0.2
 ```
+##### 开始安装
 进入 8.00.48_Linux_MegaCLI.zip包所在的目录，执行如下命令：
 ```
 unzip 8.00.48_Linux_MegaCLI.zip
