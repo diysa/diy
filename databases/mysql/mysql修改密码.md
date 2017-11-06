@@ -16,13 +16,16 @@ mysqladmin -uroot password oldpassword "newpassword"
 ```
 
 3、 UPDATE
+```
 use mysql
 UPDATE user SET password = PASSWORD('newpassword')WHERE user='root';
 FLUSH PRIVILEGES;
+```
 
 4、 忘记root密码情况
+```
 mysqld_safe --skip-grant-tables&
 mysql -uroot 
 UPDATE user SET password = PASSWORD('newpassword')WHERE user='root';
 FLUSH PRIVILEGES;
-
+```
